@@ -1,0 +1,48 @@
+[
+  {
+    "id": "cat-clinical",
+    "category": { "en": "Medical & Clinical", "vi": "Y khoa & Lâm sàng" },
+    "icon": "stethoscope",
+    "skills": [
+      "ENT clinical practice",
+      "Otorhinolaryngology",
+      "Laryngoscopy",
+      "Vocal fold disease assessment",
+      "Head and neck imaging",
+      "Clinical study design"
+    ]
+  },
+  {
+    "id": "cat-ai",
+    "category": { "en": "AI & Programming", "vi": "AI & Lập trình" },
+    "icon": "brain",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "OpenCV",
+      "MONAI",
+      "nnU-Net",
+      "Deep learning",
+      "Computer vision",
+      "Medical image segmentation",
+      "Radiomics",
+      "Explainable AI",
+      "Vision-language models"
+    ]
+  },
+  {
+    "id": "cat-research",
+    "category": { "en": "Research & Academic", "vi": "Nghiên cứu & Học thuật" },
+    "icon": "flask",
+    "skills": [
+      "Manuscript writing",
+      "Dataset construction",
+      "Model evaluation",
+      "Statistical analysis",
+      "Scientific visualization",
+      "Conference presentation",
+      "Journal submission"
+    ]
+  }
+]

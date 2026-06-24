@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "academic": {
+      "label": { "en": "Academic CV", "vi": "CV Học thuật" },
+      "sections": ["personal", "education", "work", "interests", "publications", "projects", "certificates", "skills", "contact"]
+    },
+    "short": {
+      "label": { "en": "Short 1-page CV", "vi": "CV 1 trang" },
+      "sections": ["personal", "education", "work", "publicationsTop", "skills", "contact"]
+    },
+    "clinical": {
+      "label": { "en": "Clinical CV", "vi": "CV Lâm sàng" },
+      "sections": ["personal", "education", "work", "clinical", "publicationsClinical", "certificates", "contact"]
+    },
+    "cs": {
+      "label": { "en": "AI / CS Research CV", "vi": "CV Nghiên cứu AI/CS" },
+      "sections": ["personal", "education", "interests", "publicationsCS", "projects", "skills", "certificates", "contact"]
+    }
+  },
+  "defaultVariant": "academic"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Thao Thi Phuong Dao",
+  "credentials": "MD, MSc",
+  "vietnameseName": "Đào Thị Phương Thảo",
+  "title": "ENT Doctor | Computer Scientist | Medical AI Researcher",
+  "tagline": {
+    "en": "Healing with expertise, advancing with algorithms.",
+    "vi": "Chữa lành bằng chuyên môn, tiến xa cùng thuật toán."
+  },
+  "intro": {
+    "en": "I am an otolaryngologist and computer science researcher working at the intersection of ENT clinical practice, medical imaging, artificial intelligence, and clinical decision support. My work focuses on developing clinically meaningful AI systems for laryngoscopy, vocal fold disease analysis, head-and-neck CT imaging, segmentation, radiomics, and explainable deep learning.",
+    "vi": "Tôi là bác sĩ Tai Mũi Họng đồng thời là nhà nghiên cứu khoa học máy tính, làm việc tại giao điểm giữa thực hành lâm sàng TMH, hình ảnh y khoa, trí tuệ nhân tạo và hỗ trợ ra quyết định lâm sàng. Công việc của tôi tập trung phát triển các hệ thống AI có ý nghĩa lâm sàng cho nội soi thanh quản, phân tích bệnh lý dây thanh, hình ảnh CT đầu–cổ, phân vùng ảnh, radiomics và học sâu khả diễn giải."
+  },
+  "currentRoles": {
+    "en": [
+      "Otolaryngologist, Department of Otorhinolaryngology, Thong Nhat Hospital, Ho Chi Minh City, Vietnam",
+      "PhD student in Computer Science, University of Science, Vietnam National University, Ho Chi Minh City"
+    ],
+    "vi": [
+      "Bác sĩ Tai Mũi Họng, Khoa Tai Mũi Họng, Bệnh viện Thống Nhất, TP. Hồ Chí Minh, Việt Nam",
+      "Nghiên cứu sinh Khoa học Máy tính, Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM"
+    ]
+  },
+  "bio": {
+    "en": "Dr. Thao Thi Phuong Dao is an ENT specialist at Thong Nhat Hospital, Ho Chi Minh City, and a PhD student in Computer Science at the University of Science, VNU-HCM. She holds a Master of Medicine in Otorhinolaryngology from the University of Medicine and Pharmacy at Ho Chi Minh City and a Master of Computer Science / ICT from the John von Neumann Institute, University of Science, VNU-HCM. Her research applies artificial intelligence across otolaryngology, radiology, gastroenterology, obstetrics, diagnostics, treatment support, and prognosis — with a focus on laryngoscopy, vocal fold disease, head-and-neck CT, segmentation, radiomics, and explainable deep learning.",
+    "vi": "BS. Đào Thị Phương Thảo là bác sĩ chuyên khoa Tai Mũi Họng tại Bệnh viện Thống Nhất, TP. Hồ Chí Minh, và là nghiên cứu sinh Khoa học Máy tính tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Bà có bằng Thạc sĩ Y học chuyên ngành Tai Mũi Họng (Đại học Y Dược TP.HCM) và Thạc sĩ Khoa học Máy tính / Công nghệ Thông tin–Truyền thông (Viện John von Neumann, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM). Nghiên cứu của bà ứng dụng trí tuệ nhân tạo trong Tai Mũi Họng, chẩn đoán hình ảnh, tiêu hóa, sản khoa, chẩn đoán, hỗ trợ điều trị và tiên lượng — tập trung vào nội soi thanh quản, bệnh lý dây thanh, CT đầu–cổ, phân vùng ảnh, radiomics và học sâu khả diễn giải."
+  },
+  "email": "Dtpthao@selab.hcmus.edu.vn",
+  "clinicalInstitution": "Thong Nhat Hospital, Ho Chi Minh City, Vietnam",
+  "academicInstitution": "University of Science, VNU-HCM",
+  "location": "Ho Chi Minh City, Vietnam",
+  "profilePhoto": "/images/profile/thao-dao.jpg",
+  "cvFile": "/cv/Thao_Thi_Phuong_Dao_CV.pdf"
+}

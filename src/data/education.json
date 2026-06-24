@@ -1,0 +1,34 @@
+[
+  {
+    "id": "edu-1",
+    "period": "2011 – 2017",
+    "startYear": 2011,
+    "degree": { "en": "Bachelor of Medicine", "vi": "Bác sĩ Y khoa" },
+    "institution": { "en": "School of Medicine, Vietnam National University Ho Chi Minh City", "vi": "Khoa Y, Đại học Quốc gia TP. Hồ Chí Minh" },
+    "type": "medical"
+  },
+  {
+    "id": "edu-2",
+    "period": "2018 – 2020",
+    "startYear": 2018,
+    "degree": { "en": "Master of Medicine in Otorhinolaryngology", "vi": "Thạc sĩ Y học chuyên ngành Tai Mũi Họng" },
+    "institution": { "en": "University of Medicine and Pharmacy, Ho Chi Minh City", "vi": "Đại học Y Dược TP. Hồ Chí Minh" },
+    "type": "medical"
+  },
+  {
+    "id": "edu-3",
+    "period": "2020 – 2023",
+    "startYear": 2020,
+    "degree": { "en": "Master of Computer Science (ICT)", "vi": "Thạc sĩ Khoa học Máy tính (CNTT-TT)" },
+    "institution": { "en": "John von Neumann Institute, University of Science, VNU-HCM", "vi": "Viện John von Neumann, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM" },
+    "type": "cs"
+  },
+  {
+    "id": "edu-4",
+    "period": "2024 – present",
+    "startYear": 2024,
+    "degree": { "en": "PhD student in Computer Science", "vi": "Nghiên cứu sinh Khoa học Máy tính" },
+    "institution": { "en": "University of Science, VNU-HCM", "vi": "Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM" },
+    "type": "cs"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "work-1",
+    "period": "2021 – present",
+    "startYear": 2021,
+    "role": { "en": "Otolaryngologist", "vi": "Bác sĩ Tai Mũi Họng" },
+    "organization": { "en": "Department of Otorhinolaryngology, Thong Nhat Hospital", "vi": "Khoa Tai Mũi Họng, Bệnh viện Thống Nhất" },
+    "type": "clinical"
+  }
+]

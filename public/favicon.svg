@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0B2540"/>
+  <path d="M8 34h7l4-13 6 26 6-30 5 22 4-9h11" fill="none" stroke="#22B8CF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="54" font-family="Georgia, serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">td</text>
+</svg>

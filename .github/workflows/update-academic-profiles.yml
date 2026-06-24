@@ -1,0 +1,57 @@
+name: Quarterly academic profile check
+
+# Runs every 3 months (Jan, Apr, Jul, Oct on the 1st at 02:00 UTC).
+# Fetches works from the public ORCID API and opens a pull request with a
+# suggestions file. It NEVER edits publications.json directly — you review
+# and approve each entry by merging (or editing) the PR.
+
+on:
+  schedule:
+    - cron: "0 2 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-profiles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch ORCID updates
+        env:
+          # Set this in repo Settings → Secrets and variables → Actions → Variables
+          ORCID_ID: ${{ vars.ORCID_ID }}
+        run: npm run update-publications
+
+      - name: Open pull request with suggestions
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: quarterly academic profile suggestions"
+          branch: academic-update/${{ github.run_id }}
+          title: "Quarterly academic profile update suggestions"
+          body: |
+            Automated quarterly check of the public **ORCID** profile.
+
+            - New publications detected are listed in `data/suggested-updates/`.
+            - Nothing in `src/data/publications.json` has been changed.
+            - Review each suggestion and copy the approved entries into
+              `src/data/publications.json`, then merge.
+
+            > Google Scholar & ResearchGate have no official public API and are
+            > intentionally left for manual import (DOI / BibTeX).
+          add-paths: |
+            data/suggested-updates/**
+            src/data/update-logs.json

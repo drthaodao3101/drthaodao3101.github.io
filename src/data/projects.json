@@ -1,0 +1,92 @@
+[
+  {
+    "id": "proj-1",
+    "title": { "en": "AI-assisted Vocal Fold Disease Analysis", "vi": "Phân tích bệnh lý dây thanh hỗ trợ bởi AI" },
+    "description": {
+      "en": "Deep learning models for classification, detection, and segmentation of vocal fold lesions from flexible laryngoscopy images.",
+      "vi": "Các mô hình học sâu cho phân loại, phát hiện và phân vùng tổn thương dây thanh từ ảnh nội soi thanh quản ống mềm."
+    },
+    "role": { "en": "Lead researcher", "vi": "Nghiên cứu chính" },
+    "technologies": ["PyTorch", "Computer Vision", "Segmentation", "Classification"],
+    "status": "active",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  },
+  {
+    "id": "proj-2",
+    "title": { "en": "Laryngoscopy Image Analysis & VoFoCD Dataset", "vi": "Phân tích ảnh nội soi thanh quản & bộ dữ liệu VoFoCD" },
+    "description": {
+      "en": "Medical AI research for improving laryngoscopy image classification by integrating global information and local features.",
+      "vi": "Nghiên cứu AI y khoa nhằm cải thiện phân loại ảnh nội soi thanh quản bằng cách tích hợp thông tin toàn cục và đặc trưng cục bộ."
+    },
+    "role": { "en": "First author", "vi": "Tác giả chính" },
+    "technologies": ["Deep Learning", "Dataset Construction", "PyTorch"],
+    "status": "published",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  },
+  {
+    "id": "proj-3",
+    "title": { "en": "Head and Neck CT Lesion Segmentation", "vi": "Phân vùng tổn thương trên CT đầu–cổ" },
+    "description": {
+      "en": "Segmentation-guided analysis of abscess, tumor, and cyst lesions in head-and-neck CT images.",
+      "vi": "Phân tích định hướng phân vùng cho các tổn thương áp-xe, u và nang trên ảnh CT đầu–cổ."
+    },
+    "role": { "en": "Lead researcher", "vi": "Nghiên cứu chính" },
+    "technologies": ["MONAI", "nnU-Net", "3D Segmentation"],
+    "status": "active",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  },
+  {
+    "id": "proj-4",
+    "title": { "en": "Content-Based Retrieval of Head and Neck CT Images", "vi": "Truy hồi ảnh CT đầu–cổ theo nội dung" },
+    "description": {
+      "en": "A medical image retrieval framework using segmentation, radiomics, and deep imaging features.",
+      "vi": "Khung truy hồi ảnh y khoa sử dụng phân vùng, radiomics và đặc trưng ảnh học sâu."
+    },
+    "role": { "en": "First author", "vi": "Tác giả chính" },
+    "technologies": ["Radiomics", "CBIR", "Feature Learning"],
+    "status": "published",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  },
+  {
+    "id": "proj-5",
+    "title": { "en": "Explainable AI & Radiomics for Age-Associated Lesion Phenotyping", "vi": "AI khả diễn giải & Radiomics cho kiểu hình tổn thương theo tuổi" },
+    "description": {
+      "en": "A research direction combining segmentation-guided radiomics and deep features to predict chronological age and identify imaging phenotypes in head-and-neck CT lesions.",
+      "vi": "Hướng nghiên cứu kết hợp radiomics định hướng phân vùng và đặc trưng học sâu để dự đoán tuổi thực và xác định kiểu hình ảnh học của tổn thương CT đầu–cổ."
+    },
+    "role": { "en": "Lead researcher", "vi": "Nghiên cứu chính" },
+    "technologies": ["Explainable AI", "Radiomics", "Deep Features"],
+    "status": "active",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  },
+  {
+    "id": "proj-6",
+    "title": { "en": "Mobile AI for ENT Screening", "vi": "AI di động cho sàng lọc Tai Mũi Họng" },
+    "description": {
+      "en": "Lightweight AI models for real-time or near-real-time support in ENT endoscopy and vocal fold assessment.",
+      "vi": "Các mô hình AI nhẹ hỗ trợ thời gian thực hoặc gần thời gian thực cho nội soi TMH và đánh giá dây thanh."
+    },
+    "role": { "en": "Lead researcher", "vi": "Nghiên cứu chính" },
+    "technologies": ["Edge AI", "Model Compression", "Mobile"],
+    "status": "active",
+    "image": "",
+    "repo": "",
+    "demo": "",
+    "paper": ""
+  }
+]

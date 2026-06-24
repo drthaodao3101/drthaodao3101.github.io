@@ -1,0 +1,30 @@
+{
+  "categories": ["All", "Travel", "Conference", "Academic", "International", "Vietnam", "Family", "Sports"],
+  "images": [
+    { "id": "g-1", "image": "", "title": "AAO-HNSF Annual Meeting", "location": "Nashville, USA", "year": 2023, "caption": "Poster presentation at AAO-HNS 2023.", "category": "Conference" },
+    { "id": "g-2", "image": "", "title": "MedInfo 2023", "location": "Sydney, Australia", "year": 2023, "caption": "World Congress on Medical and Health Informatics.", "category": "Conference" },
+    { "id": "g-3", "image": "", "title": "ACM Multimedia / CBMI 2025", "location": "Dublin, Ireland", "year": 2025, "caption": "Keynote and paper presentations.", "category": "Academic" },
+    { "id": "g-4", "image": "", "title": "Research Visit", "location": "Singapore", "year": 2023, "caption": "Academic exchange and collaboration.", "category": "International" },
+    { "id": "g-5", "image": "", "title": "Capital Visit", "location": "Ha Noi, Vietnam", "year": 2022, "caption": "", "category": "Vietnam" },
+    { "id": "g-6", "image": "", "title": "Coastal City", "location": "Da Nang, Vietnam", "year": 2022, "caption": "", "category": "Vietnam" },
+    { "id": "g-7", "image": "", "title": "Imperial City", "location": "Hue, Vietnam", "year": 2022, "caption": "", "category": "Vietnam" },
+    { "id": "g-8", "image": "", "title": "Ancient Town", "location": "Hoi An, Vietnam", "year": 2022, "caption": "", "category": "Vietnam" },
+    { "id": "g-9", "image": "", "title": "Highlands", "location": "Da Lat, Vietnam", "year": 2021, "caption": "", "category": "Vietnam" },
+    { "id": "g-10", "image": "", "title": "Island Province", "location": "Kien Giang, Vietnam", "year": 2021, "caption": "", "category": "Vietnam" },
+    { "id": "g-11", "image": "", "title": "Seaside", "location": "Nha Trang, Vietnam", "year": 2021, "caption": "", "category": "Vietnam" }
+  ],
+  "places": [
+    { "name": "Ho Chi Minh City, Vietnam", "lat": 10.7769, "lng": 106.7009, "category": "home" },
+    { "name": "Ha Noi, Vietnam", "lat": 21.0278, "lng": 105.8342, "category": "Vietnam" },
+    { "name": "Da Nang, Vietnam", "lat": 16.0544, "lng": 108.2022, "category": "Vietnam" },
+    { "name": "Hue, Vietnam", "lat": 16.4637, "lng": 107.5909, "category": "Vietnam" },
+    { "name": "Hoi An, Vietnam", "lat": 15.8801, "lng": 108.3380, "category": "Vietnam" },
+    { "name": "Da Lat, Vietnam", "lat": 11.9404, "lng": 108.4583, "category": "Vietnam" },
+    { "name": "Kien Giang, Vietnam", "lat": 10.0125, "lng": 105.0809, "category": "Vietnam" },
+    { "name": "Nha Trang, Vietnam", "lat": 12.2388, "lng": 109.1967, "category": "Vietnam" },
+    { "name": "Singapore", "lat": 1.3521, "lng": 103.8198, "category": "International" },
+    { "name": "Nashville, USA", "lat": 36.1627, "lng": -86.7816, "category": "Conference" },
+    { "name": "Sydney, Australia", "lat": -33.8688, "lng": 151.2093, "category": "Conference" },
+    { "name": "Dublin, Ireland", "lat": 53.3498, "lng": -6.2603, "category": "Conference" }
+  ]
+}

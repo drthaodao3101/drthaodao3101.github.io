@@ -1,0 +1,16 @@
+{
+  "expertise": [
+    { "icon": "stethoscope", "en": "Otolaryngology", "vi": "Tai Mũi Họng" },
+    { "icon": "waveform", "en": "Laryngology", "vi": "Thanh học" },
+    { "icon": "target", "en": "Vocal Fold Disorders", "vi": "Rối loạn dây thanh" },
+    { "icon": "scope", "en": "Flexible Laryngoscopy", "vi": "Nội soi thanh quản ống mềm" },
+    { "icon": "shield", "en": "Head and Neck Infection", "vi": "Nhiễm trùng đầu–cổ" },
+    { "icon": "ct", "en": "Head and Neck CT Interpretation", "vi": "Đọc CT đầu–cổ" },
+    { "icon": "flask", "en": "ENT Clinical Research", "vi": "Nghiên cứu lâm sàng TMH" },
+    { "icon": "support", "en": "AI-assisted Clinical Decision Support", "vi": "Hỗ trợ quyết định lâm sàng bằng AI" }
+  ],
+  "disclaimer": {
+    "en": "This website is for academic and professional portfolio purposes and does not replace medical consultation.",
+    "vi": "Trang web này phục vụ mục đích hồ sơ học thuật và chuyên môn, không thay thế cho việc tư vấn y khoa."
+  }
+}

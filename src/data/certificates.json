@@ -1,0 +1,12 @@
+[
+  { "id": "cert-1", "title": "TensorFlow Developer Certificate", "issuer": "Google", "year": 2023, "credentialId": "31281273", "category": "ai" },
+  { "id": "cert-2", "title": "Oxford Machine Learning Summer School 2023 — MLx Fundamentals & Cases", "issuer": "University of Oxford", "year": 2023, "credentialId": "", "category": "ai" },
+  { "id": "cert-3", "title": "Oxford Machine Learning Summer School 2023 — MLx Health", "issuer": "University of Oxford", "year": 2023, "credentialId": "", "category": "health-ai" },
+  { "id": "cert-4", "title": "AI Series: Fundamentals of AI and Machine Learning in Healthcare", "issuer": "Stanford University School of Medicine", "year": 2023, "credentialId": "", "category": "health-ai" },
+  { "id": "cert-5", "title": "Mathematics for Machine Learning: Linear Algebra", "issuer": "Imperial College London / Coursera", "year": 2022, "credentialId": "", "category": "math" },
+  { "id": "cert-6", "title": "Mathematics for Machine Learning: Multivariate Calculus", "issuer": "Imperial College London / Coursera", "year": 2022, "credentialId": "", "category": "math" },
+  { "id": "cert-7", "title": "Machine Learning Online Course", "issuer": "VietAI", "year": 2021, "credentialId": "", "category": "ai" },
+  { "id": "cert-8", "title": "Crash Course on Python", "issuer": "Google / Coursera", "year": 2021, "credentialId": "", "category": "programming" },
+  { "id": "cert-9", "title": "The Bits and Bytes of Computer Networking", "issuer": "Google / Coursera", "year": 2021, "credentialId": "", "category": "programming" },
+  { "id": "cert-10", "title": "Technical Support Fundamentals", "issuer": "Google / Coursera", "year": 2021, "credentialId": "", "category": "programming" }
+]

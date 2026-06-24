@@ -1,0 +1,15 @@
+[
+  { "id": "ri-1", "icon": "brain", "en": "Medical Artificial Intelligence", "vi": "Trí tuệ nhân tạo y khoa" },
+  { "id": "ri-2", "icon": "stethoscope", "en": "Otolaryngology and Head & Neck Surgery", "vi": "Tai Mũi Họng và Phẫu thuật Đầu–Cổ" },
+  { "id": "ri-3", "icon": "scope", "en": "Laryngoscopy Image Analysis", "vi": "Phân tích ảnh nội soi thanh quản" },
+  { "id": "ri-4", "icon": "waveform", "en": "Vocal Fold Disease Classification", "vi": "Phân loại bệnh lý dây thanh" },
+  { "id": "ri-5", "icon": "target", "en": "Vocal Fold Lesion Detection and Segmentation", "vi": "Phát hiện và phân vùng tổn thương dây thanh" },
+  { "id": "ri-6", "icon": "ct", "en": "Head and Neck CT Imaging", "vi": "Hình ảnh CT đầu–cổ" },
+  { "id": "ri-7", "icon": "layers", "en": "Medical Image Segmentation", "vi": "Phân vùng ảnh y khoa" },
+  { "id": "ri-8", "icon": "chart", "en": "Radiomics and Deep Imaging Features", "vi": "Radiomics và đặc trưng ảnh học sâu" },
+  { "id": "ri-9", "icon": "search", "en": "Content-Based Medical Image Retrieval", "vi": "Truy hồi ảnh y khoa theo nội dung" },
+  { "id": "ri-10", "icon": "eye", "en": "Explainable Artificial Intelligence", "vi": "Trí tuệ nhân tạo khả diễn giải" },
+  { "id": "ri-11", "icon": "chat", "en": "Vision-Language AI for ENT Endoscopy", "vi": "AI thị giác–ngôn ngữ cho nội soi TMH" },
+  { "id": "ri-12", "icon": "support", "en": "Clinical Decision Support Systems", "vi": "Hệ thống hỗ trợ ra quyết định lâm sàng" },
+  { "id": "ri-13", "icon": "mobile", "en": "Mobile AI Applications in Medicine", "vi": "Ứng dụng AI di động trong y học" }
+]

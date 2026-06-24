@@ -1,0 +1,13 @@
+{
+  "hobbies": [
+    { "icon": "chess", "en": "Chess", "vi": "Cờ vua" },
+    { "icon": "football", "en": "Football", "vi": "Bóng đá" },
+    { "icon": "travel", "en": "Travel", "vi": "Du lịch" },
+    { "icon": "camera", "en": "Photography", "vi": "Nhiếp ảnh" },
+    { "icon": "globe", "en": "Conferences & Academic Travel", "vi": "Hội nghị & Công tác học thuật" }
+  ],
+  "intro": {
+    "en": "Beyond the clinic and the lab, life is made of games, journeys, and the people met along the way.",
+    "vi": "Ngoài phòng khám và phòng thí nghiệm, cuộc sống được dệt nên từ những ván cờ, những hành trình và những con người gặp gỡ trên đường đi."
+  }
+}
