@@ -6,10 +6,10 @@
     "venue": "Journal of Imaging Informatics in Medicine",
     "year": 2024,
     "role": "First author",
-    "link": "",
-    "doi": "",
+    "link": "https://link.springer.com/article/10.1007/s10278-024-01068-z",
+    "doi": "https://doi.org/10.1007/s10278-024-01068-z",
     "categories": ["otolaryngology", "computer-science", "medical-image-analysis", "journal"],
-    "tags": ["Laryngoscopy", "VoFoCD Dataset", "Classification"]
+    "tags": ["Laryngoscopy", "VoFoCD Dataset", "Classification", "Detection"]
   },
   {
     "id": "pub-ml-review",
@@ -18,22 +18,22 @@
     "venue": "Machine Learning",
     "year": 2024,
     "role": "First author",
-    "link": "",
-    "doi": "",
+    "link": "https://link.springer.com/article/10.1007/s10994-024-06602-2",
+    "doi": "https://doi.org/10.1007/s10994-024-06602-2",
     "categories": ["otolaryngology", "computer-science", "journal"],
     "tags": ["Review", "Vocal Fold", "Ethics"]
   },
   {
     "id": "pub-dynaformer",
     "title": "DYNAFormer: Enhancing transformer segmentation with dynamic anchor mask for medical imaging",
-    "authors": "",
+    "authors": "Tan-Cong Nguyen, Kim Anh Phung, Thao Thi Phuong Dao, Trong-Hieu Nguyen-Mau, Thuc Nguyen-Quang, Cong Nhan Pham, Trung-Nghia Le, Ju Shen, Tam V. Nguyen, Minh-Triet Tran",
     "venue": "Computers in Biology and Medicine",
     "year": 2025,
     "role": "Author",
-    "link": "",
-    "doi": "",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0010482525013046",
+    "doi": "https://doi.org/10.1016/j.compbiomed.2025.110952",
     "categories": ["computer-science", "medical-image-analysis", "journal"],
-    "tags": ["Transformer", "Segmentation"]
+    "tags": ["Dynamic anchor mask", "Segmentation"]
   },
   {
     "id": "pub-maicbr-cbmi",
@@ -42,7 +42,7 @@
     "venue": "MAICBR: Multimedia AI in Modern CB Retrieval — Challenges and Applications, CBMI 2025, Dublin, Ireland",
     "year": 2025,
     "role": "First author",
-    "link": "",
+    "link": "https://ieeexplore.ieee.org/iel8/11339229/11339242/11339277.pdf",
     "doi": "",
     "categories": ["computer-science", "medical-image-analysis", "conference"],
     "tags": ["Head & Neck CT", "Retrieval", "Segmentation"]
@@ -54,8 +54,8 @@
     "venue": "American Journal of Otolaryngology",
     "year": 2023,
     "role": "Co-first author",
-    "link": "",
-    "doi": "",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0196070923000145",
+    "doi": "10.1016/j.amjoto.2023.103800",
     "categories": ["otolaryngology", "computer-science", "medical-image-analysis", "journal"],
     "tags": ["Deep Learning", "Vocal Fold", "Laryngoscopy"]
   },
@@ -66,7 +66,7 @@
     "venue": "Vietnam Journal of Community Medicine",
     "year": 2023,
     "role": "First author",
-    "link": "",
+    "link": "https://bvtn.edu.vn/wp-content/uploads/2023/10/ky-yeu-hoi-nghi-2023.pdf",
     "doi": "",
     "categories": ["otolaryngology", "journal"],
     "tags": ["Clinical Study", "Geriatric ENT"]
@@ -78,31 +78,31 @@
     "venue": "Indian Journal of Otolaryngology and Head & Neck Surgery",
     "year": 2021,
     "role": "First author",
-    "link": "",
-    "doi": "",
+    "link": "https://link.springer.com/article/10.1007/s12070-021-02494-z",
+    "doi": "https://doi.org/10.1007/s12070-021-02494-z",
     "categories": ["otolaryngology", "medical-image-analysis", "journal"],
-    "tags": ["Anatomy", "CT", "Head & Neck"]
+    "tags": ["Anatomy", "CT", "Head & Neck", "Sphenopalatine Foramen"]
   },
   {
     "id": "pub-dermai",
     "title": "DermAI: A Chatbot Assistant for Skin Lesion Diagnosis Using Vision and Large Language Models",
-    "authors": "",
+    "authors": "Viet-Tham Huynh, Trong-Thuan Nguyen, Thao Thi-Phuong Dao, Tam V. Nguyen, Minh-Triet Tran",
     "venue": "ACCV Workshops",
     "year": 2024,
     "role": "Author",
-    "link": "",
-    "doi": "",
+    "link": "https://link.springer.com/chapter/10.1007/978-981-96-2641-0_20",
+    "doi": "https://doi.org/10.1007/978-981-96-2641-0_20",
     "categories": ["computer-science", "conference"],
-    "tags": ["Vision-Language", "Chatbot", "Diagnosis"]
+    "tags": ["Vision-Language", "Chatbot", "Diagnosis", "Skin Lesion"]
   },
   {
     "id": "pub-piseg",
     "title": "PISeg: Polyp Instance Segmentation with Texture Denoising and Adaptive Region",
-    "authors": "",
+    "authors": "Tan-Cong Nguyen, Kim Anh Phung, Tien-Phat Nguyen, Thao Thi Phuong Dao, Cong Nhan Pham, Trung-Nghia Le, Thuc Nguyen-Quang, Ju Shen, Tam V Nguyen, Minh-Triet Tran",
     "venue": "IEEE ISBI",
     "year": 2024,
     "role": "Author",
-    "link": "",
+    "link": "https://ieeexplore.ieee.org/iel8/10635099/10635102/10635898.pdf",
     "doi": "",
     "categories": ["computer-science", "medical-image-analysis", "conference"],
     "tags": ["Instance Segmentation", "Colonoscopy"]
@@ -110,11 +110,11 @@
   {
     "id": "pub-polyp-benchmark",
     "title": "Polyp Instance Segmentation in Colonoscopy Images: A Benchmark",
-    "authors": "",
-    "venue": "IEEE/ACIS BCD",
+    "authors": "Tan-Cong Nguyen, Kim Anh Phung, Thao Thi Phuong Dao, Ju Shen, Tam V. Nguyen, Minh-Triet Tran",
+    "venue": "2023 IEEE/ACIS 8th International Conference on Big Data, Cloud Computing, and Data Science (BCD)",
     "year": 2023,
     "role": "Author",
-    "link": "",
+    "link": "https://ieeexplore.ieee.org/document/10466309/",
     "doi": "",
     "categories": ["computer-science", "medical-image-analysis", "conference"],
     "tags": ["Benchmark", "Colonoscopy"]
@@ -122,49 +122,49 @@
   {
     "id": "pub-manet",
     "title": "MANet: Multi-branch attention auxiliary learning for lung nodule detection and segmentation",
-    "authors": "",
+    "authors": "Tan-Cong Nguyen, Tien-Phat Nguyen, Tri Cao, Thao Thi Phuong Dao, Thi-Ngoc Ho, Tam V Nguyen, Minh-Triet Tran",
     "venue": "Computer Methods and Programs in Biomedicine",
     "year": 2023,
     "role": "Author",
-    "link": "",
-    "doi": "",
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0169260723004145",
+    "doi": "https://doi.org/10.1016/j.cmpb.2023.107748",
     "categories": ["computer-science", "medical-image-analysis", "journal"],
-    "tags": ["Attention", "Lung Nodule", "Detection"]
+    "tags": ["Attention", "Lung Nodule", "Detection", "Segmentation"]
   },
   {
     "id": "pub-cvpr-wicv",
     "title": "Vision-based Assistance for Vocal Fold Identification in Laryngoscopy with Knowledge Distillation",
-    "authors": "",
-    "venue": "WICV Workshop, CVPR 2022",
+    "authors": "Thao Thi Phuong Dao, Minh-Khoi Pham, Mai-Khiem Tran, Chanh Cong Ha, Boi Ngoc Van, Bich Anh Tran, Minh-Triet Tran",
+    "venue": "WICV Workshop, CVPR 2022", "Studies in Health Technology and Informatics"
     "year": 2022,
     "role": "Author",
-    "link": "",
-    "doi": "",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/38269948/",
+    "doi": "10.3233/SHTI231104",
     "categories": ["otolaryngology", "computer-science", "medical-image-analysis", "conference"],
     "tags": ["Knowledge Distillation", "Laryngoscopy"]
   },
   {
     "id": "pub-flare",
     "title": "Semi-supervised Organ Segmentation with Mask Propagation Refinement and Uncertainty Estimation for Data Generation",
-    "authors": "",
+    "authors": "Minh-Khoi Pham, Thang-Long Nguyen-Ho, Thao Thi Phuong Dao, Tan-Cong Nguyen, Minh-Triet Tran",
     "venue": "FLARE 2022, Lecture Notes in Computer Science",
     "year": 2022,
     "role": "Author",
-    "link": "",
-    "doi": "",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-23911-3_15",
+    "doi": "https://doi.org/10.1007/978-3-031-23911-3_15",
     "categories": ["computer-science", "medical-image-analysis", "conference"],
     "tags": ["Semi-supervised", "Organ Segmentation"]
   },
   {
     "id": "pub-sperm",
     "title": "Tail-Aware Sperm Analysis for Transparent Tracking of Spermatozoa",
-    "authors": "",
+    "authors": "Tuan-Luc Huynh, Huu-Hung Nguyen, Xuan-Nhat Hoang, Thao Thi Phuong Dao, Tien-Phat Nguyen, Viet-Tham Huynh, Hai-Dang Nguyen, Trung-Nghia Le, Minh-Triet Tran",
     "venue": "MediaEval 2022",
     "year": 2022,
     "role": "Author",
-    "link": "",
+    "link": "https://ceur-ws.org/Vol-3583/paper33.pdf",
     "doi": "",
     "categories": ["computer-science", "conference"],
-    "tags": ["Tracking", "Analysis"]
+    "tags": ["Tracking", "Analysis", "Spermatozoa"]
   }
 ]
