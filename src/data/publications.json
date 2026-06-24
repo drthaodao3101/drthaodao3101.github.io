@@ -90,12 +90,8 @@
     "venue": "ACCV Workshops",
     "year": 2024,
     "role": "Author",
-    "link": "https://link.springer.com/chapter/10.1007/978-981-96-2641-0_20
-        
-        ",
-    "doi": "https://doi.org/10.1007/978-981-96-2641-0_20
-        
-        ",
+    "link": "https://link.springer.com/chapter/10.1007/978-981-96-2641-0_20",
+    "doi": "https://doi.org/10.1007/978-981-96-2641-0_20",
     "categories": ["computer-science", "conference"],
     "tags": ["Vision-Language", "Chatbot", "Diagnosis", "Skin Lesion"]
   },
@@ -131,9 +127,7 @@
     "year": 2023,
     "role": "Author",
     "link": "https://www.sciencedirect.com/science/article/abs/pii/S0169260723004145",
-    "doi": "https://doi.org/10.1016/j.cmpb.2023.107748
-        
-        ",
+    "doi": "https://doi.org/10.1016/j.cmpb.2023.107748",
     "categories": ["computer-science", "medical-image-analysis", "journal"],
     "tags": ["Attention", "Lung Nodule", "Detection", "Segmentation"]
   },
@@ -145,9 +139,7 @@
     "year": 2022,
     "role": "Author",
     "link": "https://pubmed.ncbi.nlm.nih.gov/38269948/",
-    "doi": "10.3233/SHTI231104
-        
-        ",
+    "doi": "10.3233/SHTI231104",
     "categories": ["otolaryngology", "computer-science", "medical-image-analysis", "conference"],
     "tags": ["Knowledge Distillation", "Laryngoscopy"]
   },
@@ -158,12 +150,8 @@
     "venue": "FLARE 2022, Lecture Notes in Computer Science",
     "year": 2022,
     "role": "Author",
-    "link": "https://link.springer.com/chapter/10.1007/978-3-031-23911-3_15
-        
-        ",
-    "doi": "https://doi.org/10.1007/978-3-031-23911-3_15
-        
-        ",
+    "link": "https://link.springer.com/chapter/10.1007/978-3-031-23911-3_15",
+    "doi": "https://doi.org/10.1007/978-3-031-23911-3_15",
     "categories": ["computer-science", "medical-image-analysis", "conference"],
     "tags": ["Semi-supervised", "Organ Segmentation"]
   },
