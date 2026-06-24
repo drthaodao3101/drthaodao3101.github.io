@@ -71,7 +71,7 @@ export default function PublicationList() {
         return (
           p.title.toLowerCase().includes(q) ||
           p.venue.toLowerCase().includes(q) ||
-          (p.authors ?? "").toLowerCase().includes(q) ||
+          (p.authors ?? []).some((a) => a.toLowerCase().includes(q)) ||
           (p.tags ?? []).some((t) => t.toLowerCase().includes(q))
         );
       })
