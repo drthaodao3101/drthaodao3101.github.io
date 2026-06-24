@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { ComposableMap, Geographies, Geography, Marker, Graticule, Line } from "react-simple-maps";
 import { PageHeader, SectionHeading, Reveal } from "@/components/ui";
 import { Icon } from "@/lib/icons";
 import { useLang } from "@/components/LanguageProvider";
@@ -98,78 +99,86 @@ function Carousel({ images }: { images: GImage[] }) {
   );
 }
 
-/* ---------- Travel Map (equirectangular SVG) ---------- */
+/* ---------- Travel Map ---------- */
 function TravelMap() {
   const { lang } = useLang();
   const places = gallery.places;
-  const W = 720;
-  const H = 360;
-  // equirectangular projection
-  const project = (lat: number, lng: number) => ({
-    x: ((lng + 180) / 360) * W,
-    y: ((90 - lat) / 180) * H,
-  });
   const home = places.find((p) => p.category === "home") ?? places[0];
-  const hp = project(home.lat, home.lng);
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-line bg-navy shadow-card">
-      <svg viewBox={`0 0 ${W} ${H}`} className="h-auto w-full" role="img" aria-label="Travel map">
+    <div className="overflow-hidden rounded-2xl border border-line bg-[#0B2540] shadow-card">
+      <ComposableMap
+        projection="geoEquirectangular"
+        projectionConfig={{ scale: 147, center: [20, 10] }}
+        style={{ width: "100%", height: "auto" }}
+        viewBox="0 0 800 400"
+      >
         <defs>
-          <radialGradient id="ocean" cx="50%" cy="45%" r="75%">
+          <radialGradient id="ocean2" cx="50%" cy="45%" r="75%">
             <stop offset="0%" stopColor="#0E3A56" />
             <stop offset="100%" stopColor="#0B2540" />
           </radialGradient>
         </defs>
-        <rect width={W} height={H} fill="url(#ocean)" />
 
-        {/* graticule */}
-        {Array.from({ length: 11 }).map((_, k) => (
-          <line key={`v${k}`} x1={(k / 10) * W} y1={0} x2={(k / 10) * W} y2={H} stroke="#22B8CF" strokeOpacity="0.07" />
-        ))}
-        {Array.from({ length: 7 }).map((_, k) => (
-          <line key={`h${k}`} x1={0} y1={(k / 6) * H} x2={W} y2={(k / 6) * H} stroke="#22B8CF" strokeOpacity="0.07" />
-        ))}
-        <line x1={0} y1={H / 2} x2={W} y2={H / 2} stroke="#22B8CF" strokeOpacity="0.18" strokeDasharray="3 4" />
+        {/* Ocean background */}
+        <rect width={800} height={400} fill="url(#ocean2)" />
 
-        {/* arcs from home */}
+        {/* Graticule grid */}
+        <Graticule stroke="#22B8CF" strokeOpacity={0.07} strokeWidth={0.5} />
+
+        {/* Country shapes */}
+        <Geographies geography="/world-110m.json">
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography
+                key={geo.rsmKey}
+                geography={geo}
+                fill="#1A4A6B"
+                stroke="#22B8CF"
+                strokeOpacity={0.25}
+                strokeWidth={0.4}
+                style={{
+                  default: { outline: "none" },
+                  hover: { outline: "none", fill: "#1E5A7E" },
+                  pressed: { outline: "none" },
+                }}
+              />
+            ))
+          }
+        </Geographies>
+
+        {/* Arcs from home to each visited place */}
         {places
           .filter((p) => p.category !== "home")
-          .map((p, k) => {
-            const t = project(p.lat, p.lng);
-            const mx = (hp.x + t.x) / 2;
-            const my = (hp.y + t.y) / 2 - Math.abs(t.x - hp.x) * 0.18 - 10;
-            return (
-              <path
-                key={`arc${k}`}
-                d={`M ${hp.x} ${hp.y} Q ${mx} ${my} ${t.x} ${t.y}`}
-                fill="none"
-                stroke="#22B8CF"
-                strokeOpacity="0.35"
-                strokeWidth="1"
-              />
-            );
-          })}
+          .map((p, k) => (
+            <Line
+              key={`arc${k}`}
+              from={[home.lng, home.lat]}
+              to={[p.lng, p.lat]}
+              stroke="#22B8CF"
+              strokeOpacity={0.45}
+              strokeWidth={0.8}
+              strokeLinecap="round"
+              strokeDasharray="3 4"
+            />
+          ))}
 
-        {/* pins */}
+        {/* Markers */}
         {places.map((p, k) => {
-          const t = project(p.lat, p.lng);
           const isHome = p.category === "home";
           return (
-            <g key={`pin${k}`}>
-              {isHome && <circle cx={t.x} cy={t.y} r="7" fill="#22B8CF" opacity="0.25" />}
+            <Marker key={`pin${k}`} coordinates={[p.lng, p.lat]}>
+              {isHome && <circle r={7} fill="#22B8CF" opacity={0.2} />}
               <circle
-                cx={t.x}
-                cy={t.y}
-                r={isHome ? 4 : 3}
+                r={isHome ? 5 : 3.5}
                 fill={isHome ? "#22B8CF" : "#0E7C86"}
                 stroke="#fff"
-                strokeWidth="1"
+                strokeWidth={1}
               />
-            </g>
+            </Marker>
           );
         })}
-      </svg>
+      </ComposableMap>
 
       <div className="flex flex-wrap gap-x-5 gap-y-1.5 border-t border-white/10 p-4">
         {places.map((p) => (
